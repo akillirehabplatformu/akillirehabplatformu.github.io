@@ -1,0 +1,334 @@
+*{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url(/img/culogo.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position:40px 80px;
+    
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+h5{
+    font-weight: 300;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #1c1c1c;
+    color: whitesmoke;
+    overflow: hidden;
+    line-height: 50px;
+    position: fixed;
+    box-shadow: 0 1px 30px #969696;
+}
+
+.logo{
+    float: left;
+    width: auto;
+    padding:0 20px;
+    box-shadow: 3px 0 30px black;
+}
+
+.logo2res{
+  display: none;
+}
+
+.header .logo2{
+    color: whitesmoke;
+}
+
+.logo2:hover{
+    color: #9fcec1;
+    transition: 1s;
+}
+
+nav{
+    height: auto;
+    float: right;
+    width: 40%;
+    text-align: center;
+    box-shadow: -3px 0 30px black;
+    }
+
+nav a{
+    color: whitesmoke;
+}
+
+nav h3{
+    display: inline-block;
+    width: 130px;
+    font-weight:lighter;
+    font-size: 15px;
+}
+
+nav h3:hover{
+    background-color: #8abc84;
+    transition: .3s ;
+    font-weight: 400;
+}
+
+.sorucontainer{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.sorubaslik{
+    font-weight: 300;
+    letter-spacing: 5px;
+    border-bottom: 1px solid black;
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+.sorukutusu{
+    width:70%;
+    margin:50px  auto;
+    height: 120px;
+    overflow:hidden;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 0 10px ;
+    cursor: pointer;
+}
+
+.sorukutusu h3{
+    height: auto;
+}
+
+.sorukutusu a{
+    color: #404040;
+}
+
+.sorukutusu:hover{
+    background-color: #d7e2df;
+    opacity: .7;
+    transition: .4s;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    box-shadow: 0-2px 30px gray; 
+    overflow: hidden;
+    margin: auto;
+}
+
+.footer2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    
+}
+
+.falt1{
+    height: auto;
+}
+
+.falt2{
+    height: auto;
+    font-size: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.up{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    opacity: .8;
+    
+}
+
+.footer{
+    text-align: center;
+    
+}
+
+.footer a{
+    color: #404040;
+    display: inline-block;
+    width: auto;
+    margin:10px 20px 30px 20px;
+}
+
+.sonsorulanlardiv{
+    width: 18%;
+    height: 65%;
+    position: fixed;
+    right: 0;
+    top: 84px;
+    border: 1px solid #404040;
+    overflow-y: scroll;    
+    
+}
+
+.sonsorulanlardiv .baslik{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 1px 10px gray;
+    color: #404040;
+    
+    
+}
+
+.sagicerik1{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-bottom: 1px solid #404040;
+}
+
+.sonsorulanlardiv a{
+    color: #404040;
+}
+
+.sorukutusucontainer{
+    width: auto;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #404040;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+    
+}
+
+.footer h3{
+    padding: 10px 10px;
+}
+
+.footer .footermenu:hover{
+    transition: 1s;
+    border-bottom:  1px solid red;
+    padding: 9px 20px;
+}
+
+@media screen and (max-width:1000px){
+   
+    body{
+        background-image: none;
+    }
+    .logo2com{
+        display: none;
+    }
+    
+    .logo2res{
+        display: block;
+    }
+    
+    .logo{
+        box-shadow: 0 0 0;
+        width: 100%;
+    }
+    
+    .sonsorulanlardiv{
+        display: none;
+    }
+    
+    .sorucontainer{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        height: auto;
+    }
+    
+    .sorukutusucontainer{
+        width: 100%;
+        overflow: visible;
+        padding: 0;
+        margin: auto;
+        border:0;
+        height: auto;
+    }
+    .sorukutusu{
+        margin: 15px auto;
+        width: 100%;
+        border-top: 1px solid gray;
+        
+    }
+    
+    .sorubaslik{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 10px;
+    } 
+    
+    nav{
+        width: 100%;
+        line-height: 30px;  
+    }
+    
+    .nav1 .navh3{
+        width: auto;
+        font-size: 13px;
+        margin-right: 10px;
+        padding: 0 20px;
+    }
+    
+    .footer{
+        display: none;
+    }
+    
+    .footer2{
+        margin-top: 10px;
+        box-shadow: 0 -2px 30px gray; 
+        
+    }
+    
+    .up{
+        width:  30px;
+        height: 30px;
+    }
+    
+    .falt1{
+        font-size: 12px;
+    }
+    
+    .falt2{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
