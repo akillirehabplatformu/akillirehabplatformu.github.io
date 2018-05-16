@@ -231,6 +231,7 @@ nav h3:hover{
     
     .logo2res{
         display: block;
+        font-size: 30px;
     }
     
     .logo{
@@ -278,9 +279,9 @@ nav h3:hover{
     
     .nav1 .navh3{
         width: auto;
-        font-size: 13px;
+        font-size: 20px;
         margin-right: 10px;
-        padding: 0 20px;
+        padding: 0 10px;
     }
     
     .footer{
