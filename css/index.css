@@ -244,7 +244,7 @@ nav h3:hover{
     }
     
     .sorucontainer{
-        width: 100%;
+        width: 90%;
         margin: auto;
         overflow: hidden;
         height: auto;
@@ -259,6 +259,7 @@ nav h3:hover{
         height: auto;
     }
     .sorukutusu{
+        border-right: 1px solid black;
         margin: 15px auto;
         width: 100%;
         border-top: 1px solid gray;
