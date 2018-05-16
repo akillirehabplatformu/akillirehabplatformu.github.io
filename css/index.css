@@ -307,7 +307,9 @@ nav h3:hover{
     
     .falt2{
         padding-top: 20px;
-        font-size: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #404040;
     }
 }
 
