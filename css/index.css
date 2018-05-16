@@ -220,7 +220,7 @@ nav h3:hover{
     padding: 9px 20px;
 }
 
-@media screen and (max-width:2000px){
+@media screen and (max-width:1200px){
    
     body{
         background-image: none;
