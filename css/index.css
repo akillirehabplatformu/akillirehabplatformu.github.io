@@ -235,7 +235,7 @@ nav h3:hover{
     
     .logo{
         box-shadow: 0 0 0;
-        width: 100%;
+        width: 30%;
     }
     
     .sonsorulanlardiv{
@@ -271,8 +271,8 @@ nav h3:hover{
     } 
     
     nav{
-        width: 100%;
-        line-height: 30px;  
+        width: 50%;
+        line-height: 50px;  
     }
     
     .nav1 .navh3{
