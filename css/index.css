@@ -266,7 +266,8 @@ nav h3:hover{
     
     .sorubaslik{
         width: 100%;
-        font-size: 20px;
+        font-size: 40px;
+        text-align: center;
         margin-bottom: 10px;
     } 
     
