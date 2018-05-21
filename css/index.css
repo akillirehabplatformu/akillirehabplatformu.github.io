@@ -153,6 +153,9 @@ header a{
     .container{
         width: 92%;
     }
+    .logo{
+        width: 400px;
+    }
     .logo h1{
         font-size: 15px;
     }
