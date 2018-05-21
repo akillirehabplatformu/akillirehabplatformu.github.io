@@ -141,3 +141,24 @@ header a{
     width: 100%;
     height: auto;
 }
+
+@media screen and (max-width: 1200px ) {
+    
+    .solmenu{
+        display: none;
+    }
+    .sagmenu{
+        display: none;
+    }
+    .container{
+        width: 92%;
+    }
+    .logo h1{
+        font-size: 15px;
+    }
+    .navmenu{
+        padding: 0;
+    }
+    
+    
+}
