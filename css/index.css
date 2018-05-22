@@ -137,7 +137,7 @@ header a{
     height: 1000px;
     box-shadow: 0 10px 30px #e0e0e0;
     padding: 20px 10px;
-    margin: auto;
+    margin: 0 auto;
 }
 .containerimg{
     width: 100%;
