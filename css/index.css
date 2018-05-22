@@ -1,84 +1,270 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ARP</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,900" rel="stylesheet">
-</head>
-<body>
-   
-    <header>
+@import 'animate.css';
     
-    <div class="logo animated bounceInLeft">
-    <a href=""><h1>AKILLI REHABİLİTASYON PLATFORMU </h1><i  class="fab fa-pushed" style="font-size: 45px; display: inline-block;padding-top: 13px; padding-left: 20px"></i></a>
-    </div>
+*{ 
+    font-family:  'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;  
+}
+body{
+    margin: 0;
+}
+                                        /*HEADER CSS<<<<<<<<<<<<<<<<<<<<*/
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #2C3A47;
+    position: fixed;
+    z-index: 2;
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logo{
+    width: 600px;
+    line-height: 70px;
+    display: inline-block;
+}
+.logo h1{
+    font-size: 25px;
+    padding-left: 20px;
+    line-height: 70px;
+    float: left;
+}
+.navmenu{
+    width: auto;
+    height: 70px;
+    float: right;
+    line-height: 70px;
+    padding-right:20px;
+}
+.navmenu a{
+    display: inline-block;
+    padding: 0 20px;
+}
+.navmenu h2{
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 600;
+}
+.navmenu a:hover{
+    background-color: #FF7260;
+    transition: .5s;
+}
+                                        /*SOLMENU CSS <<<<<<<<<<<<<<<<<<<<<*/
+.solmenu{
+    width: 20%;
+    height: auto;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    box-shadow: 0 10px 30px #e0e0e0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.solaramatxtdiv{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.solaramatxt{
+    border-style: none;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d6d6d6;
+    border-radius: 30px;
+    padding-left: 10px;
+    outline: none;
+}
+.solaramatxt:hover{
+    border-color: #eb8a3c;
+    transition: .7s;
+}
+.solaramabtn{
+    width: 30%;
+    height: auto;
+    padding: 10px 20px;
+    border-style: none;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 30px;
+    outline: none;
+}
+.solaramabtndiv{
+    width: 100%;
+    text-align: center;
+}
+.solaramabtn:hover{
+    width: 40%;
+    transition: .5s;
+    border-color: #FF7260;
+    color: #FF7260;
+    cursor: pointer;
+}
+                                        /*SAG DIV CSS<<<<<<<<<<<<<<<<<<<<<<*/
+.sagmenu{
+     width: 20%;
+    height: 70%;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    box-shadow: 0 10px 30px #e0e0e0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 1;
+}
+.sorukutusu{
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: auto;
+    overflow: hidden;
+    color: gray;
+    padding: 5px;
+    margin: 10px 0;
+}
+.sorukutusu a{
+    color: #668b8a;
+    text-decoration: none;
+}
+                                        /*CONTAINER DIV <<<<<<<<<<<<<<<<<<<*/
+.container{
+    width: 55%;
+    height: 1000px;
+    box-shadow: 0 10px 30px #e0e0e0;
+    padding: 20px 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.containerimg{
+    width: 100%;
+    height: auto;
+}
+                                        /*FOOTER DIV <<<<<<<<<<<<<<<<<<<*/
+.footerust{
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+.footer{
+    width: 100%;
+    height: 230px;
+    background-color: #24292E;
+    padding: 10px;
+}
+.footersol{
+    width: 45%;
+    height: 200px;
+    float: left;
+    display: block;
+    border-right: 1px solid gray;
+}
+.footersolicondiv{
+    width: 400px;
+    margin: auto;
+    border: 2px solid #e17055;
+    height: 50px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 70px;
+    background-color: transparent;
+    box-shadow:inset 0 3px 10px #1e1e1e;
+}
+.footersol i{
+    padding: 0px 20px;
+    height: auto;
+    outline: none;
+}
+.footersol i:hover{
+    color: #55efc4;
+    transition: .5s;
+}
+.footersol a{
+    color: #ced6e0;
+    height: auto;
+    width: auto;
+    outline: none;
+}
+.footersag{
+    width: 45%;
+    height: 200px;
+    float: left;
+    display: block;
+}
+.footerbtndiv{
+    width: 40%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    float: left;
+}
+.footerbtn{
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #e17055;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow:inset 0 3px 10px #1e1e1e;
+    cursor: pointer;
+    outline: none;
+}
+.footerbtn:hover{
+    width: 160px;
+    transition: .5s;
+}
+.copyright{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    margin: 0 auto;
+    display: block;
     
-    <div class="navmenu animated bounceInRight">
-        <a href=""><h2>Hakkında</h2><i class="far fa-question-circle" style="display: inline-block;padding-left: 10px;font-size: 22px"></i></a>
-        <a href=""><h2>Sorular</h2><i class="far fa-edit" style="display: inline-block;padding-left: 10px;font-size: 22px"></i></a>
-        <a href=""><h2>İletişim</h2><i class="far fa-envelope" style="display: inline-block;padding-left: 10px;font-size: 22px"></i></a>
-    </div>
-    
-    </header>
-    
-    <div class="solmenu animated zoomInLeft">
-        <div class="solaramatxtdiv">
-        <input class="solaramatxt" type="text" placeholder="site içinde ara...">
-        </div>
-        <div class="solaramabtndiv">
-        <input class="solaramabtn" type="button" value="ARA">
-        </div>
-    </div>
-    
-    <div class="sagmenu animated zoomInRight">
-       <h2 style="text-align: center;color: #404040;padding-bottom:15px">Son Sorulanlar</h2>
-       <div class="sorukutusu"><a href=""><h4>Cihazı kapatmadan bilgisayar ile bağlantısını nasıl koparabilirim?</h4></a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales maximus egestas. Aliquam vitae elit scelerisque nibh elementum ultricies dignissim vitae nunc. Phasellus luctus, nunc ut lacinia posuere, enim quam porttitor velit, a pellentesque nulla urna ac lacus. Aliquam sagittis at purus tristique vulputate. Nulla at eros sed neque sodales pulvinar.</p></div>
-       
-       <div class="sorukutusu"><a href=""><h4>Cihazı kapatmadan bilgisayar ile bağlantısını nasıl koparabilirim?</h4></a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales maximus egestas. Aliquam vitae elit scelerisque nibh elementum ultricies dignissim vitae nunc. Phasellus luctus, nunc ut lacinia posuere, enim quam porttitor velit, a pellentesque nulla urna ac lacus. Aliquam sagittis at purus tristique vulputate. Nulla at eros sed neque sodales pulvinar.</p></div>
-       
-       <div class="sorukutusu"><a href=""><h4>Cihazı kapatmadan bilgisayar ile bağlantısını nasıl koparabilirim?</h4></a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales maximus egestas. Aliquam vitae elit scelerisque nibh elementum ultricies dignissim vitae nunc. Phasellus luctus, nunc ut lacinia posuere, enim quam porttitor velit, a pellentesque nulla urna ac lacus. Aliquam sagittis at purus tristique vulputate. Nulla at eros sed neque sodales pulvinar.</p></div>
-       
-       <div class="sorukutusu"><a href=""><h4>Cihazı kapatmadan bilgisayar ile bağlantısını nasıl koparabilirim?</h4></a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales maximus egestas. Aliquam vitae elit scelerisque nibh elementum ultricies dignissim vitae nunc. Phasellus luctus, nunc ut lacinia posuere, enim quam porttitor velit, a pellentesque nulla urna ac lacus. Aliquam sagittis at purus tristique vulputate. Nulla at eros sed neque sodales pulvinar.</p></div>
-       
-       <div class="sorukutusu"><a href=""><h4>Cihazı kapatmadan bilgisayar ile bağlantısını nasıl koparabilirim?</h4></a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales maximus egestas. Aliquam vitae elit scelerisque nibh elementum ultricies dignissim vitae nunc. Phasellus luctus, nunc ut lacinia posuere, enim quam porttitor velit, a pellentesque nulla urna ac lacus. Aliquam sagittis at purus tristique vulputate. Nulla at eros sed neque sodales pulvinar.</p></div>
-       
-       
-    </div>
-    
-    <div class="container animated zoomInDown">
-        <br><br><br><br>
-        <img class="containerimg" src="img/1.jpg" alt="">
-    </div>
-    
-    <div class="footer animated rotateInUpLeft">
-        
-        <div class="footerust">
-        <div class="footersol">
-        <div class="footersolicondiv">
-        <a href=""><i class="fab fa-google-plus-g" style="font-size: 30px"></i></a>
-        <a href=""><i class="fab fa-telegram-plane" style="font-size: 30px"></i></a>
-        <a href=""><i class="fab fa-gripfire" style="font-size: 30px"></i></a>
-        <a href=""><i class="fab fa-gitkraken" style="font-size: 30px"></i></a>
-        <a href=""><i class="fab fa-dropbox" style="font-size: 30px"></i></a>
-        </div>
-        </div>
-        
-        <div class="footersag">
-                <div class="footerbtndiv">
-                <input class="footerbtn" type="button" value="Soru Sorun">
-                </div>
-                <h1 style="color: whitesmoke;opacity: .5;text-decoration: underline;font-size: 25px;width: auto;">İletişim Bilgileri</h1>
-                <br><h4 style="color: whitesmoke;opacity: .5">Adres:</h4><p style="color: whitesmoke;font-size: 15px;opacity: .5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis lorem nec dui hendrerit.</p>
-                <br><h4 style="color: whitesmoke;opacity: .5">Telefon:</h4><p style="color: whitesmoke;font-size: 15px;opacity: .5">Loremipsumdolor </p>
-        </div>
-        </div>
-        
-        <div class="copyright animated rotateInUpLeft" style="color: gray;">Tüm Hakları Saklıdır.Designed by AlperGüzeler.2018©</div>
-        
-    </div>
-    
-  
-</body>
-</html>
+}
+                                        /*RESOLUTION SETTINGS <<<<<<<<<<<<<<<<<<<*/
+@media screen and (max-width: 1200px ) {
+    .solmenu{
+        display: none;
+    }
+    .sagmenu{
+        display: none;
+    }
+    .container{
+        width: 92%;
+    }
+    .logo{
+        width: 400px;
+    }
+    .logo h1{
+        font-size: 15px;
+    }
+    .navmenu{
+        padding: 0;
+    }
+    .footer{
+        height: 330px;
+        padding: 0;
+        margin: 0;
+    }
+    .footersol{
+        border: none;
+        width: 100%;
+        height: 100px;
+        line-height: 20px;
+    }
+    .footersolicondiv{
+        margin-top: 25px;
+    }
+    .footersag{
+        width: 100%;
+    }
+}
