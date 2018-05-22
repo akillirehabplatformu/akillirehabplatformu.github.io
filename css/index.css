@@ -223,7 +223,7 @@ header a{
     height: auto;
     text-align: center;
     background-color: #24292E;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
 }
@@ -264,9 +264,5 @@ header a{
     }
     .footersag{
         width: 100%;
-    }
-    .copyright{
-        margin: 0;
-        overflow: hidden;
     }
 }
