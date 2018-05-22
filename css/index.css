@@ -1,9 +1,9 @@
 *{ 
     font-family:  'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;   
+    padding: 0;  
 }
-/*HEADER CSS<<<<<<<<<<<<<<<<<<<<*/
+                                        /*HEADER CSS<<<<<<<<<<<<<<<<<<<<*/
 header{
     width: 100%;
     height: 70px;
@@ -46,7 +46,7 @@ header a{
     background-color: #FF7260;
     transition: .5s;
 }
-/*SOLMENU CSS <<<<<<<<<<<<<<<<<<<<<*/
+                                        /*SOLMENU CSS <<<<<<<<<<<<<<<<<<<<<*/
 .solmenu{
     width: 20%;
     height: auto;
@@ -99,10 +99,10 @@ header a{
     color: #FF7260;
     cursor: pointer;
 }
-/*SAG DIV CSS<<<<<<<<<<<<<<<<<<<<<<*/
+                                        /*SAG DIV CSS<<<<<<<<<<<<<<<<<<<<<<*/
 .sagmenu{
      width: 20%;
-    height: 70%;
+    height: 50%;
     position: fixed;
     top: 90px;
     right: 0;
@@ -111,6 +111,8 @@ header a{
     padding-bottom: 30px;
     border-radius: 5px;
     overflow-y: scroll;
+    background-color: white;
+    z-index: 1;
 }
 .sorukutusu{
     width: 100%;
@@ -127,12 +129,10 @@ header a{
     color: #668b8a;
     text-decoration: none;
 }
-.sorukutusu a:hover{
-    color: #9fb083  ;
-}
+                                        /*CONTAINER DIV <<<<<<<<<<<<<<<<<<<*/
 .container{
     width: 55%;
-    height: 2500px;
+    height: 1000px;
     box-shadow: 0 10px 30px #e0e0e0;
     padding: 20px 10px;
     margin: auto;
@@ -141,9 +141,78 @@ header a{
     width: 100%;
     height: auto;
 }
+                                        /*FOOTER DIV <<<<<<<<<<<<<<<<<<<*/
 
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #2f3640;
+    box-shadow: inset 0 1px 190px black;
+    padding: 10px;
+    overflow: hidden;
+}
+.footersol{
+    width: 45%;
+    height: 200px;
+    float: left;
+    display: block;
+    border-left: 1px solid gray;
+}
+.footersolicondiv{
+    width: 400px;
+    margin: auto;
+    border: 2px solid #e17055;
+    height: 50px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 70px;
+    background-color: transparent;
+    box-shadow:inset 0 3px 10px #1e1e1e;
+}
+.footersol i{
+    padding: 0px 20px;
+    height: auto;
+}
+.footersol i:hover{
+    color: #55efc4;
+    transition: .5s;
+}
+.footersol a{
+    color: #ced6e0;
+    height: auto;
+    width: auto;
+}
+.footersag{
+    width: 45%;
+    height: 200px;
+    float: left;
+    display: block;
+}
+.footerbtndiv{
+    width: 40%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    float: left;
+}
+.footerbtn{
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #e17055;
+    border-radius: 10px;
+    color: #e17055;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow:inset 0 3px 10px #1e1e1e;
+    cursor: pointer;
+}
+.footerbtn:hover{
+    width: 160px;
+    transition: .5s;
+}
+                                        /*RESOLUTION SETTINGS <<<<<<<<<<<<<<<<<<<*/
 @media screen and (max-width: 1200px ) {
-    
     .solmenu{
         display: none;
     }
@@ -162,6 +231,16 @@ header a{
     .navmenu{
         padding: 0;
     }
-    
-    
+    .footer{
+        height: 400px;
+        padding: 0;
+    }
+    .footersol{
+        border: none;
+        width: 100%;
+    }
+    .footersag{
+        width: 100%;
+        
+    }
 }
