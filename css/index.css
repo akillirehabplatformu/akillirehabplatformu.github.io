@@ -138,6 +138,7 @@ header a{
     box-shadow: 0 10px 30px #e0e0e0;
     padding: 20px 10px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .containerimg{
     width: 100%;
@@ -150,6 +151,7 @@ header a{
     height: 200px;
     background-color: #24292E;
     padding: 10px;
+    overflow: hidden;
 }
 .footersol{
     width: 45%;
@@ -218,6 +220,9 @@ header a{
     height: 20px;
     text-align: center;
     background-color: #24292E;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
                                         /*RESOLUTION SETTINGS <<<<<<<<<<<<<<<<<<<*/
 @media screen and (max-width: 1200px ) {
