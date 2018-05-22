@@ -1,3 +1,5 @@
+@import 'animate.css';
+    
 *{ 
     font-family:  'Montserrat', sans-serif;
     margin: 0;
@@ -102,8 +104,8 @@ header a{
                                         /*SAG DIV CSS<<<<<<<<<<<<<<<<<<<<<<*/
 .sagmenu{
      width: 20%;
-    height: 50%;
-    position: fixed;
+    height: 70%;
+    position: absolute;
     top: 90px;
     right: 0;
     box-shadow: 0 10px 30px #e0e0e0;
@@ -170,6 +172,7 @@ header a{
 .footersol i{
     padding: 0px 20px;
     height: auto;
+    outline: none;
 }
 .footersol i:hover{
     color: #55efc4;
@@ -179,6 +182,7 @@ header a{
     color: #ced6e0;
     height: auto;
     width: auto;
+    outline: none;
 }
 .footersag{
     width: 45%;
@@ -203,6 +207,7 @@ header a{
     font-weight: 500;
     box-shadow:inset 0 3px 10px #1e1e1e;
     cursor: pointer;
+    outline: none;
 }
 .footerbtn:hover{
     width: 160px;
@@ -237,6 +242,8 @@ header a{
     .footer{
         height: 300px;
         padding: 0;
+        margin: 0;
+        overflow: hidden;
     }
     .footersol{
         border: none;
@@ -245,10 +252,13 @@ header a{
         line-height: 20px;
     }
     .footersolicondiv{
-        margin-top: 10px;
+        margin-top: 25px;
     }
     .footersag{
         width: 100%;
-        
+    }
+    .copyright{
+        margin: 0;
+        overflow: hidden;
     }
 }
