@@ -226,8 +226,9 @@ header a{
     height: 30px;
     text-align: center;
     background-color: transparent;
-    margin: 0 auto;
+    margin: 10px auto;
     display: block;
+    
 }
                                         /*RESOLUTION SETTINGS <<<<<<<<<<<<<<<<<<<*/
 @media screen and (max-width: 1200px ) {
