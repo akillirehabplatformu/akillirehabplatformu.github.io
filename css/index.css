@@ -97,7 +97,8 @@ header h1{
     border-radius: 5px;
     font-size: 17px;
     outline: none;
-    cursor: pointer;
+    cursor: pointer;  
+    -webkit-appearance: none;
 }
 .form .createaccount:hover{
     background-color: #2e8ed3;
