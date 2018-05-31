@@ -30,6 +30,10 @@ header{
     margin-left: 10px;
     margin-right: 10px;
 }
+.navbar ul a:hover{
+    color: firebrick;
+    transition: .5s;
+}
 .navbar ul li a{
     text-decoration: none;
     color: #404040;
@@ -43,6 +47,11 @@ header{
     cursor:pointer;
     font-weight: 300;
     outline: none;
+}
+.navbar input:hover{
+    background-color: #2C3A47;
+    transition: .5s;
+    
 }
 header h1{
     position: absolute;
@@ -86,6 +95,10 @@ header h1{
     font-size: 17px;
     outline: none;
     cursor: pointer;
+}
+.form .createaccount:hover{
+    background-color: #2e8ed3;
+    transition: .5s;
 }
 .form h1{
     color: gray;
