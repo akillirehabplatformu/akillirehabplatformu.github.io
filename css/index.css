@@ -12,6 +12,8 @@ header{
     color: #2C3A47;
     font-weight: 600;
     overflow: hidden;
+    max-width: 1920px;
+    margin: auto;
 }
 .logo img{
     float: left;
@@ -107,6 +109,8 @@ header h1{
 container .cont1{
     width: 100%;
     display:table;
+    max-width: 1920px;
+    margin: auto;
 }
 .cont1sol{
     display: table-cell;
