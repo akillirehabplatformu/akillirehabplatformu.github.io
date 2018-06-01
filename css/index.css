@@ -185,9 +185,10 @@ footer{
     margin: auto;
 }
 footer a{
-    font-weight: bold;
+    font-weight: 500;
     color: #FD7272;
     text-decoration: none;
+    font-size: 13px;
 }
 footer .footersocial{
     color: #2C3A47;
