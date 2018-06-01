@@ -126,6 +126,9 @@ container .cont1{
     grid-template-columns: 1fr 1fr;
     text-align: center;
 }
+.cont1icerik img{
+    width: 350px;
+}
 @media screen and (max-width:1200px){
     .logo img{
     height: 70px;
@@ -143,5 +146,11 @@ container .cont1{
     transform: translate(50%,50%);
     left: 40%;
     text-align: center;
+}
+    container .cont1{
+        grid-template-columns: 1fr;
+    }
+    .cont1icerik img{
+    width: 550px;
 }
 }
