@@ -48,7 +48,7 @@ header{
     background-color: transparent;
     color: white;
     cursor:pointer;
-    font-weight: 300;
+    font-weight: 600;
     outline: none;
     -webkit-appearance: none;
 }
@@ -237,12 +237,12 @@ footer .footersocial{
         font-size: 8px;
     }
     footer .footersocial{
-        font-size: 28px;
+        font-size: 16px;
     }
     footer h3{
-        font-size: 10px;
+        font-size: 16px;
     }
     .footeralt{
-        font-size: 8px;
+        font-size: 12px;
     }
 }
