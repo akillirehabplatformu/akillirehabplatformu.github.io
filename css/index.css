@@ -1,156 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:  'Montserrat', sans-serif;
-}
-header{
-    background-image: url("/img/bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 900px;
-    color: #2C3A47;
-    font-weight: 600;
-    max-width: 1920px;
-    margin: auto;
-    z-index: -5;
-}
-.logo img{
-    float: left;
-    margin:10px 20px 10px 120px;
-}
-.navbar{
-    float: right;
-    height:70px;
-    line-height: 70px;
-    margin-right: 110px;
-    opacity: .6;
-}
-.navbar ul li{
-    list-style: none;
-    float: left;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.navbar ul a:hover{
-    color: firebrick;
-    transition: .5s;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: #404040;
-}
-.navbar input{
-    padding: 10px 20px;
-    border: 2px solid white;
-    border-radius: 5px;
-    background-color: transparent;
-    color: white;
-    cursor:pointer;
-    font-weight: 300;
-    outline: none;
-    -webkit-appearance: none;
-}
-.navbar input:hover{
-    background-color: #2C3A47;
-    transition: .5s;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevSeater</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,900" rel="stylesheet"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+   
+   <header>
+       <div class="logo"><img height="50px" src="img/logo.png" alt=""></div>
+       
+       <div class="navbar">
+           <ul>
+               <li><a href="">Challenges</a></li>
+               <li><a href="">Competitions</a></li>
+               <li><a href="">Guides</a></li>
+               <li><a href="">for Companies</a></li>
+               <li><a href="">Login</a></li>
+               <li><input type="button" value="Join Now!"></li>
+           </ul>
+       </div>
+       
+       <h1>the Biggest Social Network for Developers</h1>
+       
+       <div class="form">
+           <p>Full Name</p>
+           <input class="txt" type="text" placeholder="Full Name">
+           <p>Email Address</p>
+           <input  class="txt" type="text" placeholder="Email Address">
+           <p>Password</p>
+           <input  class="txt" type="text" placeholder="Password"><br><br>
+           <input style="width: auto;margin-right: 15px;" type="checkbox" value="kabul">I agree to the <a style="color:#6194CB;text-decoration: none" href="">DevSeater Terms</a><br><br>
+           <input class="createaccount" type="button" value="Create an account"><br><br>
+           <h2 style="border-top: 1px solid gray;padding-top: 15px;">OR</h2><br>
+           <input class="createaccount" type="button" value="Continue with Facebook "><br><br>
+       </div>
+       <div class="form" id="blur"></div>
+   </header>
+   
+   <container>
+             <div class="cont1">
+                 <div class="cont1sol"><img src="/img/2.png" alt=""></div>
+                 <div class="cont1sag"><img  src="/img/1.png" alt=""></div>
+             </div>
+             <div class="cont2">
+                 <div class="cont2ustsol"><i class="fa fa-burn" style="font-size: 35px; background-color: #076CC8;padding: 10px;border-radius: 50%;color: #F7F7F9;width: 40px;height: 40px;"></i><h2>Solve Challenges</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit porro praesentium, laboriosam. Eum nisi ipsa, aliquid, obcaecati repudiandae in tenetur, culpa, ipsam fugiat labore delectus unde et aliquam quis.</div>
+                 
+                 <div class="cont2ustsag"><i class="fa fa-bullseye" style="font-size: 35px; background-color: #076CC8;padding: 10px;border-radius: 50%;color: #F7F7F9;width: 40px;height: 40px;" ></i><h2>Track Success</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ex, voluptatum, id error quisquam culpa ratione voluptas accusamus aperiam ad aliquam aut modi eos voluptate quod. Cupiditate dignissimos reiciendis illo.</div>
+                 
+                 <div class="cont2alt"><i class="fa fa-eraser" style="font-size: 35px; background-color: #076CC8;padding: 10px;border-radius: 50%;color: #F7F7F9;width: 40px;height: 40px;"></i><h2>Prepare for Interviews</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsum dolor quae quod enim ad illo recusandae quis placeat impedit iusto sed voluptatum quam in, quo eaque ipsam necessitatibus perferendis!</div>
+             </div>
+             <div class="cont3">
+             <h2>Join an active community of software engineers!</h2>
+             <input class="cont3btn" type="button" value="Sign Up Free">
+             </div>
+             
+             
+   </container>
     
-}
-header h1{
-    position: absolute;
-    transform: translate(50%,50%);
-    top: -90px;
-    width: 250px;
-    font-size: 55px;
-}
-#blur{
-    background-color: gray;
-    opacity: .7;
-    z-index: 1;
-    border: none;
-    border-radius: 5px;
-    
-}
-.form{
-    width: 400px;
-    height: 550px;
-    display: block;
-    background-color: transparent;
-    position: absolute;
-    transform: translate(50%,50%);
-    left: 40%;
-    text-align: center;
-    z-index: 5;
-    color: whitesmoke;
-    border-radius: 5px;
-    
-}
-.form .txt{
-    width: 80%; 
-    background-color: transparent;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
-    padding: 10px;
-    outline: none;
-    -webkit-appearance: none;
-    color: whitesmoke;
-}
-.form p{
-    float: left;
-    margin: 30px 0 10px 30px;
-}
-.form .createaccount{
-    width: 70%;
-    height: 40px;
-    background-color: #1B9CFC;
-    border: none;
-    color: whitesmoke;
-    font-weight: 500;
-    border-radius: 5px;
-    font-size: 17px;
-    outline: none;
-    cursor: pointer;  
-    -webkit-appearance: none;
-}
-.form .createaccount:hover{
-    background-color: #2e8ed3;
-    transition: .5s;
-}
-container .cont1{
-    width: 100%;
-    display:grid;
-    max-width: 1920px;
-    margin: auto;
-    grid-gap: 1em;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-}
-.cont1icerik img{
-    width: 350px;
-}
-@media screen and (max-width:1200px){
-    .logo img{
-    height: 70px;
-    margin:10px 20px 10px 20px;
-}
-   .navbar{
-    height:70px;
-    line-height: 80px;
-    margin-right: 20px;
-} 
-    .form{
-    width: 350px;
-    height: 550px;
-    position: absolute;
-    transform: translate(50%,50%);
-    left: 40%;
-    text-align: center;
-}
-    container .cont1{
-        grid-template-columns: 1fr;
-    }
-    .cont1icerik img{
-    width: 550px;
-}
-}
+</body>
+</html>
