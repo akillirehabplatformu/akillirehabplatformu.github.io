@@ -212,6 +212,9 @@ footer .footersocial{
     line-height: 80px;
     margin-right: 20px;
 } 
+    header h1{
+        padding-left: 50px;
+    }
     .form{
     width: 350px;
     height: 550px;
