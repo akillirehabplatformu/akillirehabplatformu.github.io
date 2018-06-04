@@ -157,9 +157,8 @@ body{
     font-weight: bold;
     color: #2C3A47;
     font-size: 25px;
-    padding-left: 10px;
+    padding-left: 25px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #dbdbdb;
 }
 .contbaslik{
     font-weight: bold;
@@ -168,7 +167,7 @@ body{
 .cont1{
     width: 70%;
     height: auto;
-    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
     display: grid;
     grid-template-columns: 5fr 1fr;
     color: #404040;
