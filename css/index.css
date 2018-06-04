@@ -1,305 +1,260 @@
-@import'animate.css';
-::-webkit-scrollbar{
-        display: none;
-}
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
- }
-body{
-    background-color: #ecf0f1;
-}
-.header{
-    width: 100%;
-    max-width: 1920px;
-    height: auto;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    background-color: #2C3A47;
-    position: fixed;
-    z-index: 2;
-}
-.header .burger{
-    color: whitesmoke;
-    font-size:35px;
-    position: fixed;
-    top: 10px;
-    left: 20px;
-    display: none;
-}
-.header .profil{
-    border: 1px solid whitesmoke;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    top: 10px;
-    right: 20px;
-    background-image: url("/img/3.jpg");
-    background-size: cover;
-    display: none;
-}
-.header .logo{
-    line-height: 80px;
-    font-weight: bold;
-    font-size: 20px;
-    color: #55E6C1;
-    text-align: left;
-    text-align: center;
-}
-.navbar{
-    text-align: center;
-}
-.navbar a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 13px;
-}
-.navbar li{
-    list-style-type: none;
-    display: inline-block;
-    padding:0 10px;
-    line-height: 80px;
-}
-.navbar li:hover{
-    background-color: #39665c;
-    transition: .4s;
-}
-.account{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    text-align: center;
-}
-.account a{
-    text-decoration: none;
-    font-size: 12px;
-    color: whitesmoke;
-}
-.account p:hover{
-    color: #58B19F;
-}
-.account p{
-    color: whitesmoke;
-    font-weight:500;
-    padding-top: 7px;
-}
-.account i{
-    padding-top: 15px;
-    color: whitesmoke;
-    font-size: 20px;
-}
-.account i:hover{
-    color: #58B19F;
-}
-.sidebar{
-    width: 280px;
-    height: 100%;
-    position: fixed;
-    border-right: 1px solid #e2e2e2;
-    padding-top: 15px;
-    overflow-y: scroll;
-    background-color: white;
-    box-sizing: content-box;
-    top: 80px;
-}
-.sidebar .search{
-    text-align: center;
-}
-.sidebar input{
-    height: 40px;
-    border-radius: 30px;
-    border: 1px solid gray;
-    padding-left: 12px;
-    outline: none;
-    -webkit- appearance:none;
-    font-size: 10px;
-    width: 30px;
-}
-.sidebar input:focus{
-    width: 200px;
-    transition: .5s;
-}
-.sidebar h2{
-    color: gray;
-    font-size: 25px;
-    padding-left: 5px;
-}
-.sidebar .konudiv{
-    width: 100%;
-    border-bottom: 1px solid #e2e2e2;
-    padding-bottom: 5px;
-    display: inline-block;
-}
-.sidebar .konuadi:hover{
-    color: #58B19F;
-}
-.konudiv .konuadi{
-    float: left;
-    font-size: 13px;
-    padding-left: 10px;
-}
-.noc{
-    float: right;
-    padding-right: 10px;
-}
-.container{
-    padding-left: 280px;
-    padding-top: 80px;
-}
-.container h1{
-    font-weight: bold;
-    color: #2C3A47;
-    font-size: 25px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #dbdbdb;
-}
-.contbaslik{
-    font-weight: bold;
-    color: #404040;
-}
-.cont1{
-    width: 70%;
-    height: auto;
-    border-bottom: 1px solid #dbdbdb;
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-    color: #404040;
-    padding-left: 10px;
-}
-.cont1sol{
-    padding: 20px;
-}
-.cont1solust{
-    display: block;
-    height: auto;
-    overflow:hidden;
-    min-height: 96px;
-}
-.cont1solalt {
-    display: block;
-    padding-top: 10px;
-    text-align: right;
-}
-.cont1solalt .readmore{
-    float: left;
-    font-weight: bold;
-    color: #404040;
-    text-decoration: none;
-}
-.cont1solalt .date{
-    display: inline-block;
-    font-size: 10px;
-    padding-right: 10px;
-}
-.cont1solalt .username{
-    display: inline-block;
-    font-size: 10px;
-    color: #F97F51;
-}
-.cont1sag{
-    padding: 20px 0;
-    text-align: center;
-}
-.cont1sag i{
-    display: block;
-    text-align: center; 
-}
-.cont1sag a{
-    text-decoration: none;
-}
-.cont1sag .up:hover{
-    color: forestgreen;
-}
-.cont1sag .down:hover{
-    color: red;
-}
-.cont1sag .fac:hover{
-    color: #1e3799;
-}
-.cont1sag .twit:hover{
-    color: #1B9CFC;
-}
-.footer{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    text-align: center;
-    padding: 10px 0;
-    border-top: 1px solid #dbdbdb;
-    margin-top: 5px;
-}
-.footer a{
-    text-decoration: none;
-    color: #2C3A47;
-}
-.footer a:hover{
-    color: #F97F51;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new</title>
+    <link rel="stylesheet" href="css/index.css"> <!--link the CSS file -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"><!--link the FONT file -->
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"><!--link the ICON file -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--Device screen resolution -->
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--link the W3 file -->
+</head>
 
-
-
-
-@media screen and (max-width:1200px){
-    body{
-        background-color: white;
-    }
-    .header{
-        grid-template-columns: 1fr;
-        box-shadow: 0 0 20px gray;
-    }
-    .header .logo{
-        height: 60px;
-        line-height: 50px;
-        text-align: center;
-        color: #55E6C1;
-    }
-    .header .burger{
-        display:block;
-    }
-    .header .profil{
-        display: block;
-    }
-    .logo i:nth-child(2){
-        display: none;
-    }
-    .header .search{
-        line-height: 50px;
-    }
-    .navbar li{
-        line-height: 50px;
-    }
-    .navbar li:nth-child(5),li:nth-child(6),li:nth-child(7){
-        display: none;
-    }
-    .account{
-        display: none;
-    }
-    .sidebar{
-        display: none;
-    }
-    .container{
-        padding: 110px 10px;
-    }
-    .cont1{
-        width: 100%;
-        margin: auto;
-        height: auto;
-    }
-    .cont1sol{
-        padding: 5px;
-    }
-    .cont1solalt .readmore{
-        display: none;
-    }
-    .cont1solust{
-        height: auto;
-        min-height: 111px;
-    }
-    .footer{
-    display: none;
-    }
-}
+<body>  
+     <div class="header animated bounceInDown">
+        <i class="burger fa fa-bars"></i>
+        <div class="profil"></div>
+         <div class="logo"><a style="text-decoration: none" href="">YORUM DEPOSU </a><i style="color: whitesmoke;" class="fa fa-comment-dots"></i></div>
+                  
+         <div class="navbar">
+             <ul>
+                 <li><a href="">Bugün</a><i class="far fa-calendar-alt" style="color: whitesmoke;padding-left: 5px"></i></li>
+                 <li><a href="">Film/Dizi</a><i class="fa fa-film" style="color: whitesmoke;padding-left: 5px"></i></li>
+                 <li><a href="">Kitap</a><i class="fa fa-book" style="color: whitesmoke;padding-left: 5px;"></i></li>
+                 <li><a href="">Teknoloji</a><i class="fa fa-laptop" style="color: whitesmoke;padding-left: 5px"></i></li>
+                 <li><a href="">Otomobil</a><i class="fa fa-car" style="color: whitesmoke;padding-left: 5px"></i></li>
+                 <li><a href="">Kafe/Restoran</a><i class="fa fa-map-signs" style="color: whitesmoke;padding-left: 5px"></i></li>
+                 <li><a href="">Tatil</a><i class="fa fa-paper-plane" style="color: whitesmoke;padding-left: 5px"></i></li>
+             </ul>
+         </div>
+         
+         <div class="account">
+             <a href=""><i class="far fa-user"></i></a>
+             <a href=""><i class="far fa-save"></i></a>
+             <a href=""><p>Giriş Yap</p></a>
+             <a href=""><p>Kayıt ol</p></a>
+         </div>  
+         
+         
+         
+     </div>
+     
+    <div class="sidebar animated bounceInLeft">
+        <div class="search"><input type="text" placeholder="ara"><a href=""><i style="color: gray;padding-left: 10px;" class="fa fa-search"></i></a></div>
+        <h2>Başlıklar</h2>
+        
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (46)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (23)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (6)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (12)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (46)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (23)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (6)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (12)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (46)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (23)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (6)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (12)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (46)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (23)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (6)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (12)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (46)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (23)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (6)</a></div>
+        <div class="konudiv"><a class="konuadi" style="text-decoration: none;" href="">Lorem ipsum dolor sit ame </a><a style="color: gray;font-size: 10px" class="noc"> (12)</a></div>
+       
+     </div>
+     
+    <div class="container animated fadeInRight">     
+        <h1>Stranger of Things</h1>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+        <div class="cont1">           
+            <div class="cont1sol">               
+                <div class="cont1solust">
+                  <p class="comment"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor culpa adipisci asperiores quasi animi consequuntur numquam ea. Delectus eveniet eum quia, omnis qui veritatis reprehenderit iste quidem saepe nesciunt?</span><span>Voluptates itaque perferendis fuga ex ducimus eos ullam excepturi in, aut a praesentium, maxime illo porro incidunt, doloremque consectetur ab eius, quo explicabo sint ea. Commodi ad unde exercitationem nisi.</span></p><br>
+                </div>            
+                <div class="cont1solalt">
+                  <p class="date">30.11.2015 10:58 </p>
+                  <a href=""><p class="username"> @AlperGüzeler</p></a>
+                </div>            
+            </div>            
+            <div class="cont1sag">
+            <a href=""><i class="up fa fa-chevron-up"></i><br></a>
+            <a href=""><i class="down fa fa-chevron-down"></i><br></a>
+            <a href=""><i class="fac fab fa-facebook"></i><br></a>
+            <a href=""><i class="twit fab fa-twitter"></i><br></a>
+            </div>            
+        </div>
+                
+        <div class="footer">
+            <div class="footerbox"><a href="">İletişim</a></div>
+            <div class="footerbox"><a href="">Reklam</a></div>
+            <div class="footerbox"><a href="">Kullanım Koşulları</a></div>
+            <div class="footerbox"><a href="">Gizlilik Politikası</a></div>
+            <div class="footerbox"><a href="">Twitter</a></div>
+            <div class="footerbox"><a href="">Facebook</a></div>
+        </div>
+        
+    </div>
+    
+    
+     
+</body>
+</html>
