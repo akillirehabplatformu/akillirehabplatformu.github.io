@@ -25,9 +25,10 @@ body{
     color: whitesmoke;
     font-size:35px;
     position: fixed;
-    top: 10px;
+    top: 13px;
     left: 20px;
     display: none;
+    cursor: pointer;
 }
 .header .profil{
     border: 1px solid whitesmoke;
@@ -148,6 +149,56 @@ body{
     float: right;
     padding-right: 10px;
 }
+.hidesidebar{
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -80%;
+    z-index: 5;
+    background-color: #222f3e;
+    display: none;
+    padding: 30px 10px 10px 10px;
+    
+}
+.hideinputdiv{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    display: block;
+}
+.hideinput{
+    width: 70%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+.hidemenudiv{
+    display: grid;
+    grid-template-rows: 7fr 1fr;
+    grid-row-gap: 150px;
+}
+.hideustmenudiv{
+}
+hidealtmenudiv{
+    background-color: black;
+}
+.hidemenu{
+    padding-top: 12px;
+    font-size: 18px;    
+    display: inline-block;
+    width: 90%;
+}
+.hidesidebar a{
+    text-decoration: none;
+    color: whitesmoke;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
 .container{
     padding-left: 280px;
     padding-top: 80px;
@@ -253,12 +304,16 @@ body{
     .header{
         grid-template-columns: 1fr;
         box-shadow: 0 0 20px gray;
+        background-color: #1dd1a1;
     }
     .header .logo{
         height: 60px;
         line-height: 50px;
         text-align: center;
-        color: #55E6C1;
+        color: #2c3e50;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 5px;
     }
     .header .burger{
         display:block;
@@ -283,6 +338,9 @@ body{
     }
     .sidebar{
         display: none;
+    }
+    .hidesidebar{
+        display: block;
     }
     .container{
         padding: 110px 10px;
