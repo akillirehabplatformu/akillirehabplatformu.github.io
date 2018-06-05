@@ -159,6 +159,7 @@ body{
     background-color: #222f3e;
     display: none;
     padding: 30px 10px 10px 10px;
+    transition: .5s;
     
 }
 .hideinputdiv{
