@@ -353,6 +353,7 @@ body{
     }
     .container{
         padding: 110px 10px;
+        padding-top: 75px;
     }
     .cont1{
         width: 100%;
