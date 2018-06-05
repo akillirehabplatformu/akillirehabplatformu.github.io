@@ -210,7 +210,7 @@ body{
 }
 .container{
     padding-left: 280px;
-    padding-top: 80px;
+    padding-top: 120px;
     max-width: 1920px;
 }
 .container h1{
@@ -352,7 +352,10 @@ body{
         display: block;
     }
     .container{
-        padding: 110px 10px;
+        padding: 120px 10px 10px 10px;
+    }
+    .container h1{
+        padding-left: 10px;
     }
     .cont1{
         width: 100%;
