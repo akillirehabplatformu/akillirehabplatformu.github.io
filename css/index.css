@@ -110,6 +110,7 @@ header h2{
     cursor: pointer;
     min-width: 300px;
     transition: .5s;
+    -webkit-appearance:none;
 }
 .createacc:hover{
     background-color: #bf414f;
@@ -162,6 +163,7 @@ header h2{
     cursor: pointer;
     min-width: 300px; 
     transition: .5s;
+    -webkit-appearance:none;
     }
 footer{
     width: 100%;
