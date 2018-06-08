@@ -220,14 +220,18 @@ footer a{
         overflow: hidden;
     }
     .contleftel label{
-        font-size: 40px;
+        font-size: 35px;
         color: #55E6C1;
+        width: auto;
     }
     .contleftel input{
-        padding-left: 50px;
+        padding-left: 40px;
         font-size: 40px;
-        width: 710px;
+        width: 70%;
         color: whitesmoke;
+    }
+    .passwordinput{
+        width: 45%;
     }
     .checkboxdiv{
         margin: 50px auto;
