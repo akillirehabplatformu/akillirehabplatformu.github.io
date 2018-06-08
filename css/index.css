@@ -239,6 +239,12 @@ footer a{
         max-width: 90%;
         font-size: 40px;
     }
+    .checkboxdiv input{
+  -ms-transform: scale(3); /* IE */
+  -moz-transform: scale(3); /* FF */
+  -webkit-transform: scale(3); /* Safari and Chrome */
+  -o-transform: scale(3); /* Opera */
+    }
     .createacc{
         width: 90%;
         height: 110px;
