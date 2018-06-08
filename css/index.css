@@ -214,9 +214,17 @@ footer a{
         height: 110px;
         line-height: 110px;
         margin: 30px auto;
+        overflow: hidden;
     }
     .contleftel label{
         font-size: 40px;
+        color: #55E6C1;
+    }
+    .contleftel input{
+        padding-left: 50px;
+        font-size: 40px;
+        width: 710px;
+        color: whitesmoke;
     }
     .checkboxdiv{
         margin: 50px auto;
@@ -245,7 +253,7 @@ footer a{
         text-align: center;
     }
     .hidediv1 a{
-        color: whitesmoke;
+        color: #55E6C1;
         text-decoration: none;
         font-weight: bold;
     }
