@@ -240,16 +240,21 @@ footer a{
         font-size: 40px;
     }
     .checkboxdiv input{
+  -webkit- appearance:none;
   -ms-transform: scale(3); /* IE */
   -moz-transform: scale(3); /* FF */
   -webkit-transform: scale(3); /* Safari and Chrome */
   -o-transform: scale(3); /* Opera */
     }
+    .checkboxdiv label{
+        padding-left: 20px;
+        font-size: 35px;
+    }
     .createacc{
         width: 90%;
         height: 110px;
         font-size: 50px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .contright{
         display: none;
