@@ -33,9 +33,9 @@
             <center><input class="login" type="submit" value="Log in"></center>
              <div class="hidediv1">Have not an account?<label onclick="opensignup()"> Sign up</label></div>
         </div>
-        </div>
         
-   
+    </div>
+        
     <footer>
         <ul>
             <li><a href="">ABOUT US</a></li>
@@ -45,16 +45,36 @@
         </ul>
     </footer> 
     
+    <div id="hidediv2" class="hidediv2" onclick="opensidebar()"><i class="fa fa-bars"></i></div>
+    
+    <div id="hidediv3" class="hidediv3">
+      <i class="fa fa-times" onclick="closesidebar()"></i>
+      <h1>Options</h1><br>
+      <a href="">Sign up</a>
+      <a href="">Log in</a>
+      <a href="">Download App</a>
+      <a href="">Language</a><br><br><br><br>
+      <a href="">About Us</a>
+      <a href="">Support</a>
+      <a href="">Comunity</a>
+      <a href="">Contact Us</a>
+    </div>
+    
     <script>
     function openlogin(){
         document.getElementById("contleft").style.display="none";
         document.getElementById("contright").style.display="block";
     }
-    
     function opensignup(){
         document.getElementById("contleft").style.display="block";
         document.getElementById("contright").style.display="none";
     } 
+    function opensidebar(){
+        document.getElementById("hidediv3").style.left="50%";
+    }
+    function closesidebar(){
+        document.getElementById("hidediv3").style.left="-50%";
+    }
     
     </script>
         
