@@ -17,23 +17,25 @@
     
     <div class="cont">
        
-        <div class="contleft">
+        <div id="contleft" class="contleft">
             <div class="contleftel"><label for="name">Name</label><input type="text"></div><br>
             <div class="contleftel"><label for="name">Email</label><input type="email"></div><br>
-            <div class="contleftel"><label for="name">Password</label><input type="password"></div><br>
+            <div class="contleftel"><label for="name">Password</label><input class="passwordinput" type="password"></div><br>
             <div class="contleftel"><label for="name">Country</label><input type="text"></div><br>
             <div class="checkboxdiv"><input type="checkbox"><label for="">I have read and agree to the <a href="">Privacy Policy</a></label></div>
             <center><input class="createacc" type="submit" value="Create account"></center><br>
-            <div class="hidediv1"><label for="">Have an account? </label><a href="">Log in</a></div>
+            <div class="hidediv1">Have an account?<label onclick="openlogin()"> Log in</label></div>
         </div>
         
-        <div class="contright">
+        <div id="contright" class="contright">
             <div class="contrightel"><label for="name">Name</label><input type="text"></div><br>
-            <div class="contrightel"><label for="name">Password</label><input type="password"></div><br>
+            <div class="contrightel"><label for="name">Password</label><input class="passwordinput" type="password"></div><br>
             <center><input class="login" type="submit" value="Log in"></center>
+             <div class="hidediv1">Have not an account?<label onclick="opensignup()"> Sign up</label></div>
+        </div>
         </div>
         
-    </div>
+   
     <footer>
         <ul>
             <li><a href="">ABOUT US</a></li>
@@ -43,6 +45,18 @@
         </ul>
     </footer> 
     
+    <script>
+    function openlogin(){
+        document.getElementById("contleft").style.display="none";
+        document.getElementById("contright").style.display="block";
+    }
+    
+    function opensignup(){
+        document.getElementById("contleft").style.display="block";
+        document.getElementById("contright").style.display="none";
+    } 
+    
+    </script>
         
 </body>
 </html>
