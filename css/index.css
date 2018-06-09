@@ -213,6 +213,7 @@ footer a{
     }
     .contleft {
         width: 100%;
+        height: auto;
     }
     .contleftel{
         width: 90%;
@@ -261,7 +262,34 @@ footer a{
         margin-top: 30px;
     }
     .contright{
+        width: 100%;
+        height: auto;
         display: none;
+    }
+    .contrightel{
+        width: 90%;
+        height: 110px;
+        line-height: 110px;
+        margin: 30px auto;
+        overflow: hidden;
+        border-bottom: 2px solid #52647c; 
+    }
+    .contrightel label{
+        font-size: 35px;
+        color: #55E6C1;
+        width: auto;
+    }
+    .contrightel input{
+        padding-left: 40px;
+        font-size: 40px;
+        width: 70%;
+        color: whitesmoke;
+    }
+    .login{
+        width: 90%;
+        height: 110px;
+        font-size: 50px;
+        margin-top: 30px;
     }
     footer{
         display: none;
@@ -275,9 +303,8 @@ footer a{
         text-align: center;
         padding-bottom: 60px;
     }
-    .hidediv1 a{
+    .hidediv1 label{
         color: #55E6C1;
-        text-decoration: none;
         font-weight: bold;
     }
 }
