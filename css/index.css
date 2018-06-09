@@ -9,6 +9,9 @@ body{
     max-width: 1920px;
     margin: auto;
     background-color: #333E50;
+    background-image: url("/img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header{
     width: 100%+240px;
@@ -202,6 +205,9 @@ footer a{
     display: none;
 }
 @media screen and (max-width:1200px){
+    body{
+        background-position: center;
+    }
     header{
         grid-template-columns: 1fr;
         padding-left: 10px;
