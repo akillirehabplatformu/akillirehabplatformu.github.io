@@ -11,19 +11,23 @@
 <body>
    
     <header>
+    <div class="logodiv">
     <div class="headerleft"><h1>DEVSEATER</h1><br><h2>Social Network <br> for Developers</h2></div>
     <div class="headerright"></div>
+    </div>
     </header>
     
     <div class="cont">
        
         <div id="contleft" class="contleft">
+           <form action="" method="post">
             <div class="contleftel"><label for="name">Name</label><input type="text"></div><br>
-            <div class="contleftel"><label for="name">Email</label><input type="email"></div><br>
+            <div class="contleftel"><label for="name">Email</label><input type="email" required></div><br>
             <div class="contleftel"><label for="name">Password</label><input class="passwordinput" type="password"></div><br>
             <div class="contleftel"><label for="name">Country</label><input type="text"></div><br>
             <div class="checkboxdiv"><input type="checkbox"><label for="">I have read and agree to the <a href="">Privacy Policy</a></label></div>
             <center><input class="createacc" type="submit" value="Create account"></center><br>
+            </form>
             <div class="hidediv1">Have an account?<label onclick="openlogin()"> Log in</label></div>
         </div>
         
@@ -31,7 +35,7 @@
             <div class="contrightel"><label for="name">Name</label><input type="text"></div><br>
             <div class="contrightel"><label for="name">Password</label><input class="passwordinput" type="password"></div><br>
             <center><input class="login" type="submit" value="Log in"></center>
-             <div class="hidediv1">Have not an account?<label onclick="opensignup()"> Sign up</label></div>
+            <div class="hidediv1">Have not an account?<label onclick="opensignup()"> Sign up</label></div>
         </div>
         
     </div>
