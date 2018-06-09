@@ -41,8 +41,8 @@ header h2{
 .cont{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-    width: 60%;
+    width: 50%;
+    min-width: 900px;
     height: auto;
     margin: auto;
     margin-top: 50px;
@@ -110,10 +110,10 @@ header h2{
     font-weight: 500;
     cursor: pointer;
     min-width: 300px;
-    transition: .5s;
     -webkit-appearance:none;
 }
 .createacc:hover{
+    transition: .5s;
     background-color: #bf414f;
 }
 .contright{
@@ -162,9 +162,13 @@ header h2{
     font-weight: 500;
     cursor: pointer;
     min-width: 300px; 
-    transition: .5s;
     -webkit-appearance:none;
     }
+
+.login:hover{
+    transition: .5s;
+    background-color: #48c4a3;
+}
 footer{
     width: 100%;
     height: 20px;
