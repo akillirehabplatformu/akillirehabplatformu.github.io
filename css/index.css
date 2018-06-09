@@ -69,7 +69,6 @@ header h2{
     color: whitesmoke;
     font-weight: bold;
     padding-left: 15px;
-    transition: .5s;
 }
 .contleftel input{
     background-color: transparent;
@@ -139,7 +138,6 @@ header h2{
     color: whitesmoke;
     font-weight: bold;
     padding-left: 15px;
-    transition: .5s;
 }
 .contrightel input{
     background-color: transparent;
