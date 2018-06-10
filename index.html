@@ -3,84 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>DevSeater</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="main.js"></script>
 </head>
 
 <body>
-   
     <header>
-    <div class="logodiv">
-    <div class="headerleft"><h1>DEVSEATER</h1><br><h2>Social Network <br> for Developers</h2></div>
-    <div class="headerright"></div>
-    </div>
+        <div class="headerdiv">
+           
+            <div class="headerleft">
+                <ul>
+                    <li><a href="">Home <i class="fa fa-home"></i></a></li>
+                    <li><a href="">Notifications <i class="fa fa-bell"></i></a></li>
+                    <li><a href="">Messages <i class="fa fa-envelope-open"></i></a></li>
+                </ul>
+            </div>
+            
+            <div class="hideheaderleft"><i class="fa fa-bars" onclick="openleftsidebar()"></i></div>
+            <div class="hideleftsidebar" id="hideleftsidebar"></div>
+            <div class="headermiddle"><div class="logo"><i class="fab fa-envira"></i></div></div>
+            <div class="headerright">
+            <div class="headersearchdiv">
+            <input type="text" id="headersearch"><i class="fa fa-search" onclick="openheadersearch()"></i>
+            </div>
+            <div class="headerprofile" onclick="openrightsidebar()"></div>
+            <div class="hiderightsidebar" id="hiderightsidebar"></div>
+            </div>
+            
+        </div>
     </header>
     
-    <div class="cont">
-       
-        <div id="contleft" class="contleft">
-           <form action="" method="post">
-            <div class="contleftel"><label for="name">Name</label><input type="text"></div><br>
-            <div class="contleftel"><label for="name">Email</label><input type="email" required></div><br>
-            <div class="contleftel"><label for="name">Password</label><input class="passwordinput" type="password"></div><br>
-            <div class="contleftel"><label for="name">Country</label><input type="text"></div><br>
-            <div class="checkboxdiv"><input type="checkbox"><label for="">I have read and agree to the <a href="">Privacy Policy</a></label></div>
-            <center><input class="createacc" type="submit" value="Create account"></center><br>
-            </form>
-            <div class="hidediv1">Have an account?<label onclick="openlogin()"> Log in</label></div>
-        </div>
-        
-        <div id="contright" class="contright">
-            <div class="contrightel"><label for="name">Name</label><input type="text"></div><br>
-            <div class="contrightel"><label for="name">Password</label><input class="passwordinput" type="password"></div><br>
-            <center><input class="login" type="submit" value="Log in"></center>
-            <div class="hidediv1">Have not an account?<label onclick="opensignup()"> Sign up</label></div>
-        </div>
-        
-    </div>
-        
-    <footer>
-        <ul>
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">SUPPORT</a></li>
-            <li><a href="">COMMUNITY</a></li>
-            <li><a href="">CONTACT US</a></li>
-        </ul>
-    </footer> 
-    
-    <div id="hidediv2" class="hidediv2" onclick="opensidebar()"><i class="fa fa-bars"></i></div>
-    
-    <div id="hidediv3" class="hidediv3">
-      <i class="fa fa-times" onclick="closesidebar()"></i>
-      <h1>Options</h1><br>
-      <a href="">Sign up</a>
-      <a href="">Log in</a>
-      <a href="">Download App</a>
-      <a href="">Language</a><br><br><br><br><br>
-      <a href="">About Us</a>
-      <a href="">Support</a>
-      <a href="">Comunity</a>
-      <a href="">Contact Us</a>
+    <div class="maincont">
+        <div class="contleft"></div>
+        <div class="contmiddle">
+            <div class="postdiv">
+               <div class="postsoldiv">
+                <div class="headerprofile"></div>
+                <div class="postsolaltdiv"></div>
+                </div>
+                <div class="postsagdiv">
+                <div class="postsagustdiv"><textarea name="" id="postarea" style="resize:none" rows="8" cols="70"></textarea></div>
+                <div class="postsagaltdiv">
+                    <div class="postsagaltsoldiv">
+                    <i class="far fa-image"></i>
+                    <i class="fa fa-paperclip"></i>
+                    <i class="far fa-file-code"></i>
+                    </div>
+                    <div class="postsagaltsagdiv"><input type="button" type="submit" value="POST IT"></div>
+                
+                </div>
+                </div>
+            </div>
+             
+              <!-- CONTENT IS HERE-->
+        asdss
+        </div>  
+        <div class="contright"></div>
     </div>
     
-    <script>
-    function openlogin(){
-        document.getElementById("contleft").style.display="none";
-        document.getElementById("contright").style.display="block";
-    }
-    function opensignup(){
-        document.getElementById("contleft").style.display="block";
-        document.getElementById("contright").style.display="none";
-    } 
-    function opensidebar(){
-        document.getElementById("hidediv3").style.left="50%";
-    }
-    function closesidebar(){
-        document.getElementById("hidediv3").style.left="-50%";
-    }
-    
-    </script>
-        
+    <div class="bottomtab">
+            <a href=""><i class="fa fa-home"></i></a>
+            <a href=""><i class="fa fa-search"></i></a>
+            <a href=""><i class="fa fa-bell"></i></a>
+    </div>
 </body>
 </html>
