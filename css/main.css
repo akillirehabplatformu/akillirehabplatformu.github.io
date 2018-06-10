@@ -262,14 +262,14 @@ header{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
-        height:150px;
-        line-height: 150px;
+        height:130px;
+        line-height: 130px;
         border-top: 1px solid gray;
         position: fixed;
         transform: translate(-50%,-50%);
         left: 50%;
         bottom:-75px;
-        font-size: 80px;
+        font-size: 60px;
         color: #2C3A47;
         z-index: -2;
     }
