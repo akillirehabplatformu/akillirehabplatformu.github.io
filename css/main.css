@@ -215,7 +215,6 @@ header{
         position: fixed;
         width: 60%;
         height: 500px;
-        background-color: red;
         transform: translate(50%,-50%);
         right: 35%;
         top: 450px;
@@ -254,7 +253,7 @@ header{
         padding: 20px;
         position: absolute;
         z-index: -3;
-        background-color: red;
+        background-color: white;
     }
     .bottomtab{
         margin: auto;
