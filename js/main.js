@@ -1,8 +1,8 @@
-
+$(document).ready(function(){
 $('#searchicon').click(function(){
     $('#headersearch').css('display','inline-block');
 });
-
+});
 /*START HIDE SIDE BARS OPENER AND CLOSER JS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 function openleftsidebar(){
     if(document.getElementById("hideleftsidebar").style.left=="-80%"){
