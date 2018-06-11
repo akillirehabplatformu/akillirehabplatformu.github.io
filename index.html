@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -66,12 +67,13 @@
     
     <script>
     function openlogin(){
-        document.getElementById("contleft").style.display="none";
-        document.getElementById("contright").style.display="block";
+        $('#contleft').hide();
+        $('#contright').fadeToggle("slow");
+        $('#contright').css('height','1250px');
     }
     function opensignup(){
-        document.getElementById("contleft").style.display="block";
-        document.getElementById("contright").style.display="none";
+        $('#contright').hide();
+        $('#contleft').fadeToggle("slow");
     } 
     function opensidebar(){
         document.getElementById("hidediv3").style.left="50%";
