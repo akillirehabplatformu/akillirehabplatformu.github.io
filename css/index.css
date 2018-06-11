@@ -211,7 +211,7 @@ footer a{
 .hidediv3{
     display: none;
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px){  /*@MEDIA RESPONSIVE CSS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
     body{
         background-position: center;
     }
@@ -227,6 +227,7 @@ footer a{
     }
     header h2{
         font-size: 45px;
+        text-align: center;
     }
     .cont{
     grid-template-columns: 1fr;
