@@ -18,7 +18,7 @@
     width: 50%;
     max-width: 1000px;
     min-width: 900px;
-    min-height: 380px;
+    min-height: 400px;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,14 +29,14 @@
     height: 100%;
     text-align: center;
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
 }
 .cont1sag{
     width: 100%;
     height: 100%;
     text-align: center;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .cont1sag h1{
     font-weight: bold;
@@ -49,7 +49,7 @@
     position: absolute;
     transform: translate(-50%,0);
     left: 50%;
-    top: 383px;
+    top: 510px;
     z-index: 9;
     width: 100%;
 }
@@ -57,7 +57,7 @@
     width: 50%;
     max-width: 1000px;
     min-width: 900px;
-    min-height: 380px;
+    min-height: 400px;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -69,13 +69,13 @@
     text-align: center;
     color: whitesmoke;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .cont2sag{
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
 }
 .cont2sag h1{
     font-weight: bold;
@@ -87,7 +87,7 @@
     background-color: #e17055; position: absolute;
     transform: translate(-50%,0);
     left: 50%;
-    top: 765px;
+    top: 1015px;
     z-index: 8;
     width: 100%;
 }
@@ -95,7 +95,7 @@
     width: 50%;
     max-width: 1000px;
     min-width: 900px;
-    min-height: 380px;
+    min-height: 480px;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -106,7 +106,7 @@
     height: 100%;
     text-align: center;
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
 }
 .cont3sag{
     width: 100%;
@@ -114,7 +114,7 @@
     text-align: center;
     color: whitesmoke;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .cont3sag h1{
     font-weight: bold;
