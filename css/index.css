@@ -15,12 +15,14 @@
     z-index: 10;
     min-width: 900px;
     min-height: 400px;
+    max-height: 460px;
 }
 .cont1{
     width: 50%;
     max-width: 1000px;
     min-width: 900px;
     min-height: 400px;
+    max-height: 460px;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -51,11 +53,12 @@
     position: absolute;
     transform: translate(-50%,0);
     left: 50%;
-    top: 470px;
+    top: 460px;
     z-index: 9;
     width: 100%;
     min-width: 900px;
     min-height: 400px;
+    max-height: 510px;
 }
 .cont2{
     width: 50%;
@@ -91,17 +94,18 @@
     background-color: #e17055; position: absolute;
     transform: translate(-50%,0);
     left: 50%;
-    top: 975px;
+    top: 970px;
     z-index: 8;
     width: 100%;
     min-width: 900px;
     min-height: 400px;
+    max-height: 510px;
 }
 .cont3{
     width: 50%;
     max-width: 1000px;
     min-width: 900px;
-    min-height: 480px;
+    min-height: 460px;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
