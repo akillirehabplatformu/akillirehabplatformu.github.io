@@ -29,7 +29,7 @@
     height: 100%;
     text-align: center;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
 }
 .cont1sag{
     width: 100%;
@@ -49,7 +49,7 @@
     position: absolute;
     transform: translate(-50%,0);
     left: 50%;
-    top: 510px;
+    top: 470px;
     z-index: 9;
     width: 100%;
 }
@@ -87,7 +87,7 @@
     background-color: #e17055; position: absolute;
     transform: translate(-50%,0);
     left: 50%;
-    top: 1015px;
+    top: 975px;
     z-index: 8;
     width: 100%;
 }
