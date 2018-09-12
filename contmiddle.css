@@ -1,0 +1,171 @@
+*{
+    font-family:  'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.contmiddle-header{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+.contmiddle-header-left{
+    font-weight: bold;
+    font-size: 24px;
+}
+.contmiddle-header-right{
+    padding-top: 8px;
+    text-align: right;
+    font-weight: 300;
+    color: gray;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.lastpage{
+    font-weight: 500;
+    font-size: 15px;
+}
+.contmiddle-header-right a{
+    color: gray;
+}
+.contmiddle-header-right i{
+    font-size: 15px;
+    padding-left: 10px;
+    text-align: center;
+    color: black;
+}
+.contmiddle{
+    border-top: 1px solid #DDDDDD;
+    margin: auto;
+    padding-top: 12px;
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 4fr 1fr 1fr;
+    font-size: 13px;
+    
+}
+.contmiddle-top{
+    height: auto;
+    max-height: 150px;
+    overflow: hidden;
+    
+}
+.contmiddle-middle{
+    font-weight: 600;
+    color: #373737;
+    visibility: hidden;
+    cursor: pointer;
+}
+.contmiddle-bottom{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+.contmiddle-bottom-left{
+    text-align: left;
+}
+.contmiddle-bottom-left i{
+    color: gray;
+    margin: 0 7px;
+}
+.contmiddle-bottom-left i:nth-child(3){
+    margin: 7px;
+    margin-left: 20px;
+}
+.contmiddle-bottom-left i:nth-child(4){
+    margin: 7px;
+}
+.contmiddle-bottom-right {
+    text-align: right;
+}
+.contmiddle-bottom-right div{
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.contmiddle-bottom-right div:nth-child(3){
+    color: green;
+    font-weight: 400;
+    font-size: 13px;
+}
+.contmiddle-bottom-right i{
+    color: gray;
+}
+
+@media screen and (max-width:1200px){
+    .contmiddle{
+        grid-template-rows: 2fr 1fr 1fr;
+    }
+    .contmiddle-header-left{
+        font-size: 60px;
+    }
+    .contmiddle-header-right{
+        font-size: 40px;
+    }
+    select{
+        font-size: 40px;
+        width: 100px;
+        height: 60px;
+    }
+    option{
+        font-size: 20px;
+    }
+    .lastpage{
+        font-size: 40px;
+        line-height: 50px;
+        margin-left: 20px;
+    }
+    .contmiddle-header-right a{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .contmiddle-header-right i{
+        font-size: 50px;
+        padding-left: 30px;
+    }
+    .contmiddle-top{
+        font-size: 30px;
+    }
+    .contmiddle-middle{
+        font-size: 28px;
+    }
+    .contmiddle-bottom-left i{
+        font-size: 35px;
+    }
+    .contmiddle-bottom-left i:nth-child(3){
+        margin-left: 40px;
+    }
+    .contmiddle-bottom-right div{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .contmiddle-bottom-right div:nth-child(3){
+        font-size: 35px;
+    }
+    .date{
+        margin-left: 40px;
+    }
+    .contmiddle-bottom-right i{
+        font-size: 40px;
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

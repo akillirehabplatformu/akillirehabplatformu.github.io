@@ -1,0 +1,240 @@
+*{
+    font-family:  'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-color: #191919;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    color: whitesmoke;
+}
+
+.headerdiv{
+    width:  1200px;
+    height: 50px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.headerdiv1{
+    text-align: left;
+    line-height: 50px;
+    font-weight: bold;
+}
+.headerdiv2{
+    text-align: center;
+    line-height: 50px;
+}
+.headerdiv2 input{
+    border: 2px solid green;
+    width: 90%;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+.headerdiv3{
+    text-align: right;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.headerdiv3 a:hover{
+    transition: .5s;
+    color: #86A932;
+}
+.registerdiv a{
+     color: greenyellow;
+}
+
+.cont{
+    margin: auto;
+    margin-top: 30px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.cont-middle{
+    margin: 0 auto;
+    width: 70%;
+}
+.register-card{  
+    height: 725px;
+    background-color: white;
+    box-shadow: 0px 13px 45px -12px rgba(0,0,0,0.21);
+    text-align: center;
+    
+}
+.register-header{
+    text-align: center;
+    padding: 30px;
+    background-color:#191919;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.register-card input{
+    border: none;
+    background-color: whitesmoke;
+    padding: 20px 10px;
+    margin:5px 1px;   
+}
+.register-card .fa-user{
+    background-color: whitesmoke;
+    width: 56.5px;
+    height: 56.5px;
+    line-height: 54px;
+    color: #191919;
+}
+.username{
+    width: 70%;
+}
+.check-username{
+    color: gray;
+    padding-bottom: 2px;
+}
+
+.fa-check{
+    padding: 10px 0;
+    font-size: 20px;
+    color: green;
+}
+
+.register-card .fa-envelope{
+    background-color: whitesmoke;
+    width: 56.5px;
+    height: 56.5px;
+    line-height: 54px;
+    color: #191919;
+}
+.email{
+    width: 70%;
+}
+
+
+.register-card .fa-unlock{
+    background-color: whitesmoke;
+    width: 56.5px;
+    height: 56.5px;
+    line-height: 54px;
+    color: #191919;
+}
+.password{
+    width: 70%;
+}
+
+
+.register-card .fa-unlock{
+    background-color: whitesmoke;
+    width: 56.5px;
+    height: 56.5px;
+    line-height: 54px;
+    color: #191919;
+}
+.confirm-password{
+    width: 70%;
+}
+.check-password{
+    color: gray;
+    padding-bottom: 2px;
+}
+
+.fa-check{
+    padding: 10px 0;
+    font-size: 20px;
+    color: green;
+}
+
+.register-card .register-button{
+    width: 90%;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #14B9D5;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+    
+.register-card .facebook-login-button{
+    background-color: #637AB0;
+    color: whitesmoke;
+    width: 44%;
+    margin-top: 30px;
+    cursor: pointer;
+} 
+.register-card .twitter-login-button{
+    background-color: #00ACEE;
+    color: whitesmoke;
+    width: 45%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.mob-left{
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: -50%;
+    top: 50%;
+    display: none;
+    transition: .5s;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+

@@ -1,0 +1,222 @@
+*{
+    font-family:  'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-color: #191919;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    color: whitesmoke;
+}
+
+.headerdiv{
+    width:  1200px;
+    height: 50px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    transition: .5s;
+}
+.headerdiv1{
+    text-align: left;
+    line-height: 50px;
+    font-weight: bold;
+}
+.headerdiv2{
+    text-align: center;
+    line-height: 50px;
+}
+.headerdiv2 input{
+    border: 2px solid green;
+    width: 90%;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+.mob-headerdiv2{
+    display: none;
+}
+.headerdiv3{
+    text-align: right;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.headerdiv3 a:hover{
+    transition: .5s;
+    color: #86A932;
+}
+
+
+.cont{
+    margin: auto;
+    margin-top: 30px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.headerdiv1 i{
+    display: none;
+}
+.mob-left{
+    background: #78519a;
+background: -moz-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #78519a), color-stop(100%, #2eb2b0));
+background: -webkit-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
+background: -o-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
+background: -ms-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
+background: linear-gradient(135deg, #78519a 0%, #2eb2b0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', endColorstr='#2eb2b0', GradientType=1 );
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: -50%;
+    top: 50%;
+    display: none;
+    transition: .5s;
+}
+
+.mob-right{
+    background: #78519a;
+background: -moz-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #78519a), color-stop(100%, #2eb2b0));
+background: -webkit-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
+background: -o-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
+background: -ms-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
+background: linear-gradient(135deg, #78519a 0%, #2eb2b0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', endColorstr='#2eb2b0', GradientType=1 );
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    right: -150%;
+    top: 50%;
+    display: none;
+    transition: .5s;
+}
+
+@media screen and (max-width:1200px){   /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>MEDIA<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    header{
+        height: 150px;
+    }
+    .headerdiv{
+        width: 100%;
+    }
+    .headerdiv1{
+        text-align: center;
+    }
+    .headerdiv1 a{
+        display: none;
+    }
+    .headerdiv1 i{
+        display: block;
+        font-size: 50px;
+        line-height: 150px;
+    }
+    .headerdiv2 input{
+        display: none;
+    }
+    .mob-headerdiv2{
+        display: block;
+        line-height: 150px;
+        font-size: 60px;
+    }
+    .logindiv{
+        display: none;
+    }
+    .registerdiv{
+        display: none;
+    }
+    .headerdiv3 i{
+        font-size: 50px;
+        line-height: 150px;
+    }
+    .cont{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .cont-left{
+        display: none;
+    }
+    .cont-right{
+        display: none;
+    }
+    .cont-middle{
+        
+    }
+    .mob-left{
+        display: block;
+        position: fixed;
+    }
+    .mob-left-header{
+        height: 150px;
+        width: 100%;
+        background-color: #191919;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+    .mob-left-header-left{
+        font-size: 60px;
+        line-height: 150px;
+        padding-left: 40px;
+        font-weight: 500;
+        color: white;
+    }
+    .mob-left-header-right{
+        font-size: 70px;
+        text-align: right;
+        padding-right: 60px;
+        line-height: 150px;
+        color: white;
+        
+    }
+    
+     .mob-right{
+        display: block;
+        position: fixed;
+    }
+    .mob-right-header{
+        height: 150px;
+        width: 100%;
+        background-color: #191919;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+    .mob-right-header-left{
+        font-size: 60px;
+        line-height: 150px;
+        padding-left: 40px;
+        font-weight: 500;
+        color: white;
+    }
+    .mob-right-header-right{
+        font-size: 70px;
+        text-align: right;
+        padding-right: 60px;
+        line-height: 150px;
+        color: white;
+        
+    }
+
+}
+
+
+
+
+
+
