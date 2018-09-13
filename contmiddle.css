@@ -93,14 +93,6 @@
     font-size: 13px;
     padding-left: 20px;
 }
-.contmiddle-bottom-right i{
-    color: #233142;
-    font-size: 10px;
-    border: 1px solid #233142;
-    border-radius: 50%;
-    padding: 4px;
-}
-
 @media screen and (max-width:1200px){
     .contmiddle{
         margin-bottom: 50px;
@@ -134,7 +126,7 @@
         padding-left: 30px;
     }
     .contmiddle-top{
-        font-size: 13px;
+        font-size: 17px;
         margin-bottom: 20px;
     }
     .contmiddle-bottom-left i{
@@ -154,17 +146,7 @@
         font-size: 35px;
         color: green;
     }
-    .contmiddle-bottom-right i{
-    color: #233142;
-    font-size: 10px;
-    width: 35px;
-    height: 35px;
-    border: 1px solid #233142;
-    border-radius: 50%;
-    padding: 4px;
-    line-height: 12px;
-    text-align: center;
-}
+    
 
 }
 
