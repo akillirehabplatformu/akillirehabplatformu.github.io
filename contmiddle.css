@@ -102,8 +102,10 @@
 }
 .contmiddle-writebox textarea{
     resize: none;
-    margin-top: 10px;
+    width: 100%;
+    height: 150px;
     margin: auto;
+    margin-top: 10px;
 }
 @media screen and (max-width:1200px){
     .contmiddle{
@@ -161,9 +163,9 @@
         margin-top: 0px;
     }
     .contmiddle-writebox textarea{
-    resize: none;
-    margin-top: 10px;
-    font-size: 25px;
+        margin-top: 10px;
+        height: 300px;
+        font-size: 25px;
     }
     
 
