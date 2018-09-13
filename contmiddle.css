@@ -98,6 +98,7 @@
     height: 220px;
     margin: auto;
     text-align: center;
+    margin-top: 20px;
 }
 .contmiddle-writebox textarea{
     resize: none;
@@ -155,6 +156,9 @@
     .contmiddle-bottom-right div:nth-child(3){
         font-size: 35px;
         color: green;
+    }
+    .contmiddle-writebox{
+        margin-top: 0px;
     }
     .contmiddle-writebox textarea{
     resize: none;
