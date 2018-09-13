@@ -27,14 +27,11 @@
     font-weight: 500;
     font-size: 15px;
 }
-.contmiddle-header-right a{
-    color: gray;
-}
 .contmiddle-header-right i{
     font-size: 15px;
     padding-left: 10px;
     text-align: center;
-    color: black;
+    color: #233142;
 }
 .contmiddle{
     border-top: 1px solid #DDDDDD;
