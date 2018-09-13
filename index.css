@@ -8,7 +8,7 @@ body{
     background-color: whitesmoke;
 }
 header{
-    background-color: #191919;
+    background-color: #233142;
     height: 50px;
     width: 100%;
     margin: auto;
@@ -33,7 +33,7 @@ header{
     line-height: 50px;
 }
 .headerdiv2 input{
-    border: 2px solid green;
+    border: none;
     width: 90%;
     height: 30px;
     border-radius: 3px;
