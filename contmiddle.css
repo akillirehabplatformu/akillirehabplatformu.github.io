@@ -14,6 +14,9 @@
     font-weight: bold;
     font-size: 24px;
 }
+.contmiddle-header-left i{
+    color: orange;
+}
 .contmiddle-header-right{
     padding-top: 12px;
     text-align: right;
