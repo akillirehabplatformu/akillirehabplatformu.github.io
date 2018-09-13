@@ -93,6 +93,17 @@
     font-size: 13px;
     padding-left: 20px;
 }
+.contmiddle-writebox{
+    width: 90%;
+    height: 220px;
+    margin: auto;
+    text-align: center;
+}
+.contmiddle-writebox textarea{
+    resize: none;
+    margin-top: 10px;
+    margin: auto;
+}
 @media screen and (max-width:1200px){
     .contmiddle{
         margin-bottom: 50px;
@@ -144,6 +155,11 @@
     .contmiddle-bottom-right div:nth-child(3){
         font-size: 35px;
         color: green;
+    }
+    .contmiddle-writebox textarea{
+    resize: none;
+    margin-top: 10px;
+    font-size: 25px;
     }
     
 
