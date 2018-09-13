@@ -101,11 +101,25 @@
     margin-top: 20px;
 }
 .contmiddle-writebox textarea{
-    resize: none;
     width: 100%;
+    max-width: 540px;
+    min-width: 540px;
     height: 150px;
     margin: auto;
     margin-top: 10px;
+    display: block;
+}
+.send-btn{
+    width: 70px;
+    height: 40px;
+    margin: 20px 0;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    box-shadow: 0px 8px 45px -10px rgba(0,0,0,0.6);
+    outline: none;
+    cursor: pointer;
+    }
 }
 @media screen and (max-width:1200px){
     .contmiddle{
@@ -163,11 +177,19 @@
         margin-top: 0px;
     }
     .contmiddle-writebox textarea{
+        resize: none; 
+        width: 100%;
         margin-top: 10px;
         height: 300px;
         font-size: 25px;
+        max-width: none;
+        min-width: none;    
     }
+    .send-btn{
+    width: 170px;
+    height: 140px;
     
+    }
 
 }
 
