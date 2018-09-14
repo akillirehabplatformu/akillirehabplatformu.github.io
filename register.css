@@ -104,6 +104,7 @@ header a{
     background-color: whitesmoke;
     padding: 20px 10px;
     margin:5px 1px;   
+    border-radius: 0;
     -webkit-appearance:none;
 }
 .register-card .fa-user{
