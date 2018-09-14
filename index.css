@@ -13,7 +13,9 @@ header{
     height: 50px;
     width: 100%;
     margin: auto;
-    color: whitesmoke;
+    color: whitesmoke; 
+    transition: .5s;
+
 }
 
 header a{
@@ -70,36 +72,16 @@ header a{
     width: 1200px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    transition: .5s;
+
 }
 
 .mob-left{
-background: #78519a;
-    /*
-background: -moz-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, #78519a), color-stop(100%, #2eb2b0));
-background: -webkit-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
-background: -o-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
-background: -ms-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
-background: linear-gradient(135deg, #78519a 0%, #2eb2b0 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', endColorstr='#2eb2b0', GradientType=1 );
-    */
-    
     display: none;
     transition: .5s;
 }
 
 .mob-right{
-background: #78519a;
-    /*
-background: -moz-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, #78519a), color-stop(100%, #2eb2b0));
-background: -webkit-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
-background: -o-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
-background: -ms-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
-background: linear-gradient(135deg, #78519a 0%, #2eb2b0 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', endColorstr='#2eb2b0', GradientType=1 );
-    */
-   
     display: none;
     transition: .5s;
 }
@@ -169,6 +151,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         display: block;
         position: fixed;
         overflow-y: scroll;
+        background-color: #191919;
+        opacity: .8;
     }
     .mob-left-header{
         height: 150px;
@@ -299,10 +283,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         height: 100%;
         background-color: #191919;
         transform: translate(-50%,-50%);
-        right: -50%;
+        right: -150%;
         top: 50%;
         display: block;
         position: fixed;
+        opacity: .8;
     }
     .mob-right-header{
         height: 150px;
@@ -344,7 +329,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         letter-spacing: 20px;
         display: grid;
         grid-template-columns: 8fr 1fr;
-    }
+    } 
 
 }
 
