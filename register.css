@@ -178,6 +178,7 @@ header a{
     color: whitesmoke;
     cursor: pointer;
     margin-bottom: 30px;
+    -webkit-appearance:none;
 }
     
 .register-card .facebook-login-button{
@@ -186,6 +187,7 @@ header a{
     width: 44%;
     margin-top: 30px;
     cursor: pointer;
+    -webkit-appearance:none;
 } 
 .register-card .twitter-login-button{
     background-color: #00ACEE;
@@ -193,6 +195,7 @@ header a{
     width: 45%;
     margin-top: 30px;
     cursor: pointer;
+    -webkit-appearance:none;
 }
 
 
