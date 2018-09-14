@@ -14,6 +14,7 @@ header{
     width: 100%;
     margin: auto;
     color: whitesmoke;
+    transition: .5s;
 }
 
 header a{
@@ -73,6 +74,7 @@ header a{
     width: 1200px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    transition: .5s;
 }
 
                 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   LOGIN PAGE    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -246,6 +248,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         display: block;
         position: fixed;
         overflow-y: scroll;
+        opacity: .8;
     }
     .mob-left-header{
         height: 150px;
@@ -376,10 +379,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         height: 100%;
         background-color: #191919;
         transform: translate(-50%,-50%);
-        right: -50%;
+        right: -150%;
         top: 50%;
         display: block;
         position: fixed;
+        opacity: .8;
     }
     .mob-right-header{
         height: 150px;
