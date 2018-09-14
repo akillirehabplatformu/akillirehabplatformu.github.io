@@ -2,6 +2,7 @@
     font-family:  'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    outline: none;
 }
 
 body{
@@ -72,7 +73,7 @@ header a{
     display: none;
 }
 .mob-left{
-    background: #78519a;
+background: #78519a;
 background: -moz-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
 background: -webkit-gradient(left top, right bottom, color-stop(0%, #78519a), color-stop(100%, #2eb2b0));
 background: -webkit-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
@@ -84,14 +85,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
     height: 100%;
     position: absolute;
     transform: translate(-50%,-50%);
-    left: -50%;
+    left: 50%;
     top: 50%;
     display: none;
     transition: .5s;
 }
 
 .mob-right{
-    background: #78519a;
+background: #78519a;
 background: -moz-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
 background: -webkit-gradient(left top, right bottom, color-stop(0%, #78519a), color-stop(100%, #2eb2b0));
 background: -webkit-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
@@ -162,6 +163,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
     .mob-left{
         display: block;
         position: fixed;
+        overflow-y: scroll;
     }
     .mob-left-header{
         height: 150px;
@@ -169,6 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         background-color: #191919;
         display: grid;
         grid-template-columns: 4fr 1fr;
+        margin-bottom: 50px;
     }
     .mob-left-header-left{
         font-size: 60px;
@@ -185,7 +188,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         color: white;
         
     }
-    
+    .mob-left-middle{
+        font-size: 50px;
+        width: 80%;
+        margin: auto;
+    }
+    .mob-left-middle a{
+        text-decoration: none;
+        color: white;
+    }   
+    .mob-left-middle li{
+        list-style: none;
+    }    
      .mob-right{
         display: block;
         position: fixed;
