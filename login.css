@@ -102,7 +102,8 @@ header a{
     border: none;
     background-color: whitesmoke;
     padding: 20px 10px;
-    margin:5px 1px;   
+    margin:5px 1px; 
+    -webkit-appearance:none;  
 }
 .login-card .fa-user{
     background-color: whitesmoke;
@@ -137,6 +138,7 @@ header a{
 }
 .create-account{
     padding-top: 20px;
+    -webkit-appearance:none;
     
 }
 .create-account a{
