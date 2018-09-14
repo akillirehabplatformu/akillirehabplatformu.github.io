@@ -239,7 +239,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         border-bottom: 1px solid gray;
         padding-bottom: 30px;
     }
-    .mob-today-div li:nth-child(4){
+    .mob-today-div li:nth-child(1){
         background-color: transparent;
     }
     .mob-today-div a{
@@ -263,7 +263,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         border-bottom: 1px solid gray;
         padding-bottom: 30px;
     }
-    .mob-light-div li:nth-child(4){
+    .mob-light-div li:nth-child(1){
         background-color: transparent;
     }
     .mob-light-div a{
@@ -286,7 +286,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         border-bottom: 1px solid gray;
         padding-bottom: 30px;
     }
-    .mob-categories-div li:nth-child(4){
+    .mob-categories-div li:nth-child(1){
         background-color: transparent;
     }
     .mob-categories-div a{
