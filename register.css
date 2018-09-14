@@ -270,14 +270,15 @@ header a{
 /*<<<<<<<<<<<<<<<<<<<<<<<  MOBIL----REGISTER PAGE----MOBIL >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .cont-middle{  
-    width: 90%;
+    width: 100%;
     max-width: none;
 }
 .register-card{  
+    margin: auto;
+    width: 100%;
     height: auto;
     background-color: transparent;
     box-shadow: none;
-    
 }
 .register-header{
     background-color: transparent;
@@ -292,10 +293,14 @@ header a{
     font-size: 25px;
 }
 .register-card input:nth-child(2){
-    padding: 20px 15px;
+    padding: 20px 10px;
+    width: 38%;
+    max-width: 350px;
 }
 .register-card input:nth-child(3){
-    padding: 20px 15px;
+    padding: 20px 10px;
+    width: 38%;
+    max-width: 350px;
 }
 .register-card .fa-user{
     background-color: white;
@@ -306,6 +311,8 @@ header a{
     color: #191919;
 }
 .username{
+    width: 70%;
+    max-width: 660px;
 }
 .check-username{
     font-size: 30px;
@@ -317,7 +324,10 @@ header a{
     font-size: 30px;
     line-height: 65px;
 }
-
+    .email{   
+    width: 70%;
+    max-width: 660px;
+    }
 
 .register-card .fa-unlock{
     background-color: white;
@@ -327,6 +337,8 @@ header a{
     line-height: 65px;
 }
 .password{
+    width: 70%;
+    max-width: 660px;
 }
 
 .register-card .fa-unlock{
@@ -337,6 +349,8 @@ header a{
     line-height: 65px;
 }
 .confirm-password{
+    width: 70%;
+    max-width: 660px;
 }
 .check-password{
     font-size: 30px;
@@ -351,6 +365,7 @@ header a{
 .register-card .register-button{
     width: 81%;
     font-size: 40px;
+    max-width: 770px;
 }
     
 .register-card .facebook-login-button{
