@@ -7,18 +7,25 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".open-left").click(function(){
         $(".mob-left").css("left","50%");
+        $(".cont").css("filter","blur(20px)");
+        $("header").css("filter","blur(20px)");
     })
 })
 
 $(document).ready(function(){
     $(".close-left").click(function(){
         $(".mob-left").css("left","-50%");
+        $(".cont").css("filter","blur(0px)");
+        $("header").css("filter","blur(0px)");
     })
 })
 
 $(document).ready(function(){
     $(".open-right").click(function(){
         $(".mob-right").css("right","-50%");
+        $(".cont").css("filter","blur(20px)");
+        $("header").css("filter","blur(20px)");
+        
         
     })
 })
@@ -26,6 +33,8 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".close-right").click(function(){
         $(".mob-right").css("right","-150%");
+        $(".cont").css("filter","blur(0px)");
+        $("header").css("filter","blur(0px)");
     })
 })
 
