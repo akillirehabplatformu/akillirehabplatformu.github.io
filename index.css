@@ -16,6 +16,10 @@ header{
     color: whitesmoke;
 }
 
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 .headerdiv{
     width:  1200px;
     height: 50px;
@@ -28,6 +32,9 @@ header{
     text-align: left;
     line-height: 50px;
     font-weight: bold;
+}
+.headerdiv1 i{
+    display: none;
 }
 .headerdiv2{
     text-align: center;
@@ -52,15 +59,10 @@ header{
     font-weight: 600;
     font-size: 14px;
 }
-header a{
-    text-decoration: none;
-    color: whitesmoke;
-}
 .headerdiv3 a:hover{
     transition: .5s;
     color: #86A932;
 }
-
 
 .cont{
     margin: auto;
@@ -69,9 +71,7 @@ header a{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
-.headerdiv1 i{
-    display: none;
-}
+
 .mob-left{
 background: #78519a;
 background: -moz-linear-gradient(-45deg, #78519a 0%, #2eb2b0 100%);
@@ -85,7 +85,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
     height: 100%;
     position: absolute;
     transform: translate(-50%,-50%);
-    left: 50%;
+    left: -50%;
     top: 50%;
     display: none;
     transition: .5s;
@@ -111,7 +111,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
     transition: .5s;
 }
 
-@media screen and (max-width:1200px){   /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>MEDIA<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   MEDIA    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+@media screen and (max-width:1200px){   
     header{
         height: 150px;
     }
@@ -160,6 +164,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
     .cont-middle{
         
     }
+    
+    /* <<<<<<<<<<<<<<<<<<<<<<<<     MOB-LEFT      >>>>>>>>>>>>>>>>>>>>>>>><<*/
+    
     .mob-left{
         display: block;
         position: fixed;
@@ -198,9 +205,98 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         color: white;
     }   
     .mob-left-middle li{
+        color: white;
         list-style: none;
-    }    
-     .mob-right{
+        margin: 30px 0;
+        padding: 20px;
+        border: 1px solid white;
+    }
+    .mob-left-middle li:nth-child(4){
+        background-color: white;
+    }
+    .mob-left-middle input{
+        width: 90%;
+        height: 100px;
+        font-size: 37px;
+        border: none;
+    }
+    .mob-left-middle i{
+        color: #191919;
+        padding-right: 10px;
+    }
+    .mob-today-div {
+        display: none;
+        background-color: whitesmoke;
+        height: 1000px;
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+    .mob-today-div li{
+        border: none;
+        font-size: 25px;
+        margin:none;
+        padding: 0;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .mob-today-div li:nth-child(4){
+        background-color: transparent;
+    }
+    .mob-today-div a{
+        padding-left: 40px;
+        color: #191919;
+    }
+    
+    
+    .mob-light-div {
+        display: none;
+        background-color: whitesmoke;
+        height: 1000px;
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+    .mob-light-div li{
+        border: none;
+        font-size: 25px;
+        margin:none;
+        padding: 0;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .mob-light-div li:nth-child(4){
+        background-color: transparent;
+    }
+    .mob-light-div a{
+        padding-left: 40px;
+        color: #191919;
+    }
+    
+    .mob-categories-div {
+        display: none;
+        background-color: whitesmoke;
+        height: 1000px;
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+    .mob-categories-div li{
+        border: none;
+        font-size: 25px;
+        margin:none;
+        padding: 0;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .mob-categories-div li:nth-child(4){
+        background-color: transparent;
+    }
+    .mob-categories-div a{
+        padding-left: 40px;
+        color: #191919;
+    }
+    
+    /* <<<<<<<<<<<<<<<<<<<<<<<<     MOB-RIGHT      >>>>>>>>>>>>>>>>>>>>>>>><<*/
+    
+    .mob-right{
         display: block;
         position: fixed;
     }
