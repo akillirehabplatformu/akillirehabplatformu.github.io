@@ -211,7 +211,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78519a', end
         padding: 20px;
         border: 1px solid white;
     }
-    .mob-left-middle li:nth-child(4){
+    .mob-left-middle li:nth-child(1){
         background-color: white;
     }
     .mob-left-middle input{
