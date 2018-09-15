@@ -77,7 +77,8 @@ header a{
     transition: .5s;
 }
 
-                /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   LOGIN PAGE    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   LOGIN PAGE    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 .cont-middle{
     margin: 0 auto;
@@ -214,9 +215,74 @@ header a{
     .cont-right{
         display: none;
     }
-    .cont-middle{
-        
-    }
+    
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  MOBIL--- LOGIN PAGE ---MOBIL   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cont-middle{
+    max-width: none;
+    width: 100%;
+}
+.login-card{  
+    margin: auto;
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    
+}
+.login-header{
+    background-color:transparent;
+    color: #191919;
+    font-size: 45px;
+    border-bottom: 1px solid gray;
+}
+.login-card input{
+    background-color: white;
+    margin:35px 1px; 
+    font-size: 25px;
+    padding: 30px 10px;
+}
+.login-card .fa-user{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    line-height: 85px;
+    color: #191919;
+}
+.username{
+    width: 70.5%;
+}
+
+.login-card .fa-unlock{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    line-height: 85px;
+    color: #191919;
+}
+.password{
+    width: 70.5%;
+}
+
+.login-card .login-button{
+    width: 85%;
+    font-size: 40px;
+    max-width: 780px;
+}
+.create-account{
+    padding-top: 20px;
+    -webkit-appearance:none;
+    
+}
+.create-account a{
+    font-size: 30px;
+}
+.create-account i{
+    font-size: 30px;
+}
+
     
     /* <<<<<<<<<<<<<<<<<<<<<<<<     MOB-LEFT      >>>>>>>>>>>>>>>>>>>>>>>><<*/
     
